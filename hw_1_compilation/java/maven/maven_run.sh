@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bashg
 mvn clean
 rm dependency-reduced-pom.xml
 mvn package

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/shg
 
 . ./setantenv.sh
 
