@@ -1,4 +1,4 @@
-#!/bin/bashg
+#!/bin/sh
 
 rm -rf build
 
