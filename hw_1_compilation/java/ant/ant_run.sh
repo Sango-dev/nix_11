@@ -1,10 +1,8 @@
 #!/bin/sh
 . ./setantenv.sh
-
-
-
-
 cd ./app
+
+
 
 
 
