@@ -7,9 +7,10 @@ cd console/
 cd ../
 
 cd ant/
+
 . ./ant_run.sh
 
-cd ../
+cd ../../
 
 cd maven/
 
