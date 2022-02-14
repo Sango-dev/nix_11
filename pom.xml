@@ -10,6 +10,8 @@
 
     <modules>
         <module>hw_2_base_types</module>
+        <module>reverse_string_util</module>
+        <module>hw_3_strings</module>
     </modules>
 
     <packaging>pom</packaging>
