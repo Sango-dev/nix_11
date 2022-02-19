@@ -6,7 +6,8 @@ import ua.com.alevel.dao.impl.PhoneDaoImpl;
 import ua.com.alevel.entity.Phone;
 
 public class PhoneService {
-    PhoneDao phoneDao = new PhoneDaoImpl();
+
+    private final PhoneDao phoneDao = new PhoneDaoImpl();
 
     public void create(Phone phone) {
         phoneDao.create(phone);
