@@ -13,6 +13,7 @@
         <module>reverse_string_util</module>
         <module>hw_3_strings</module>
         <module>hw_4_start_oop</module>
+        <module>module_1</module>
     </modules>
 
     <packaging>pom</packaging>
