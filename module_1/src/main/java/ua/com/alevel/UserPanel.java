@@ -10,8 +10,8 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public final class UserPanel {
-    private UserPanel() {
-    }
+
+    private UserPanel() { }
 
     public static void startInteract() {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
@@ -24,11 +24,9 @@ public final class UserPanel {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
-
     }
 
     public static void printMenu() {
-
         System.out.print("""
                                
                 Select a task:
