@@ -40,30 +40,15 @@ public class ProgramRun {
 
     private static void doCrud(String opt, BufferedReader reader) {
         switch (opt) {
-            case "1" -> {
-                create(reader);
-            }
-            case "2" -> {
-                update(reader);
-            }
-            case "3" -> {
-                delete(reader);
-            }
-            case "4" -> {
-                findById(reader);
-            }
-            case "5" -> {
-                findAll();
-            }
-            case "0" -> {
-                System.exit(0);
-            }
-            default -> {
-                System.out.println("Incorrect input data!!!");
-            }
+            case "1" -> create(reader);
+            case "2" -> update(reader);
+            case "3" -> delete(reader);
+            case "4" -> findById(reader);
+            case "5" -> findAll();
+            case "0" -> System.exit(0);
+            default -> System.out.println("Incorrect input data!!!");
         }
     }
-
 
     private static void create(BufferedReader reader) {
         try {
@@ -99,7 +84,6 @@ public class ProgramRun {
             System.out.println("Trouble: " + e.getMessage());
         }
     }
-
 
     private static void delete(BufferedReader reader) {
         try {

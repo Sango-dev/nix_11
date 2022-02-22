@@ -3,7 +3,6 @@ package ua.com.alevel.db;
 import ua.com.alevel.arraylist.CustomArrayList;
 import ua.com.alevel.entity.Phone;
 
-
 public final class PhoneCustomArrayListDB implements PhoneDB{
 
     private final CustomArrayList<Phone> phones = new CustomArrayList<>();

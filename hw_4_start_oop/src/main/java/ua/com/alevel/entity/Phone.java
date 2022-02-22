@@ -2,8 +2,8 @@ package ua.com.alevel.entity;
 
 public class Phone extends AbstractEntity {
 
-    String name;
-    PhoneColor color;
+    private String name;
+    private PhoneColor color;
 
     public String getName() {
         return name;

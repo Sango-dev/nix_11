@@ -13,22 +13,13 @@ public final class UserPanel {
             while(true) {
                 printMenu();
                 String numOpt = bufferedReader.readLine();
-                switch(numOpt) {
-                    case "1":
-                        SumDigits.calcSumDigits();
-                        break;
-                    case "2":
-                        SortCharacters.calcNumbLettersAndSort();
-                        break;
-                    case "3":
-                        EndLesson.countEndTime();
-                        break;
-                    case "4":
-                        System.exit(0);
-                        break;
-                    default:
-                        break;
-
+                switch (numOpt) {
+                    case "1" -> SumDigits.calcSumDigits();
+                    case "2" -> SortCharacters.calcNumbLettersAndSort();
+                    case "3" -> EndLesson.countEndTime();
+                    case "4" -> System.exit(0);
+                    default -> {
+                    }
                 }
             }
         } catch (IOException e) {

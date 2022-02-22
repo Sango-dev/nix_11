@@ -6,12 +6,12 @@ import java.io.InputStreamReader;
 
 public final class SortCharacters {
 
-    private SortCharacters() {}
+    private SortCharacters() { }
 
     public static void calcNumbLettersAndSort() {
         try {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-            while(true) {
+            while (true) {
                 System.out.print("Enter input string -> ");
                 String s = bufferedReader.readLine();
                 if (s == null || s.length() == 0) {
@@ -44,7 +44,7 @@ public final class SortCharacters {
                 if (cnt == 0) {
                     System.out.println("There are no letters in the string!!!");
                 }
-                System.out.print("Repeat (print 'yes') or another char to end -> " );
+                System.out.print("Repeat (print 'yes') or another char to end -> ");
                 s = bufferedReader.readLine();
                 if (!s.equals("yes")) {
                     break;
