@@ -25,13 +25,13 @@ public final class EndLesson {
                 System.out.print("Enter the number of lessons (1...10) -> ");
                 String s = bufferedReader.readLine();
                 n = Integer.parseInt(s);
-                if (n < 1 || n > 10) {
+                if (n < VAR_1 || n > VAR_10) {
                     System.out.println("Incorrect number!!!");
                     continue;
                 }
-                int cur  = n * 45 + (n / 2) * 5 + ((n + 1) / 2 - 1) * 15;
-                int h = cur / 60 + 9;
-                int m = cur % 60;
+                int cur  = n * VAR_45 + (n / VAR_2) * VAR_5 + ((n + VAR_1) / VAR_2 - VAR_1) * 15;
+                int h = cur / VAR_60 + VAR_9;
+                int m = cur % VAR_60;
                 System.out.println("Answer: ");
                 System.out.println(h + " " + m);
                 System.out.print("Repeat (print 'yes') or another char to end -> " );
